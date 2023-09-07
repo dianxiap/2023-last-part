@@ -1,0 +1,21 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(郑课设.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  department.c
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(44,23): warning C4020: “renew_dep”: 实参太多
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(92,19): warning C4020: “renew_dep”: 实参太多
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(241,19): warning C4020: “renew_dep”: 实参太多
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(277,27): warning C4020: “renew_dep”: 实参太多
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(289,19): warning C4020: “renew_dep”: 实参太多
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(314,31): warning C4020: “renew_dep”: 实参太多
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(324,51): warning C4047: “==”:“char [9]”与“int”的间接级别不同
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(325,39): warning C4133: “函数”: 从“Dep *”到“Sta *”的类型不兼容
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(325,44): warning C4133: “函数”: 从“Sta *”到“Dep *”的类型不兼容
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(325,46): warning C4020: “delete_sta”: 实参太多
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(340,27): warning C4020: “renew_dep”: 实参太多
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(353,19): warning C4020: “renew_dep”: 实参太多
+E:\草稿箱\2023lastpart\郑课设\郑课设\department.c(357,35): warning C4029: 声明的形参表不同于定义
+  main.c
+  operator.c
+  sort.c
+  staff.c
+  正在生成代码...
+  郑课设.vcxproj -> E:\草稿箱\2023lastpart\郑课设\x64\Debug\公司部门员工管理系统.exe
