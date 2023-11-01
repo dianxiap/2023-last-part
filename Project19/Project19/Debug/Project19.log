@@ -1,0 +1,15 @@
+﻿  源.cpp
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(22,23): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(24,27): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(34,23): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(49,14): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(49,31): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(51,15): warning C4018: “>=”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(51,33): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(56,20): warning C4018: “>=”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(56,38): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(95,23): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(100,19): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(104,23): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\Project19\Project19\源.cpp(109,19): warning C4018: “<”: 有符号/无符号不匹配
+  Project19.vcxproj -> E:\草稿箱\2023-last-part\Project19\Debug\Project19.exe
