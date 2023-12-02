@@ -1,0 +1,9 @@
+﻿  Binary.c
+E:\草稿箱\2023-last-part\二叉树链式存储\二叉树链式存储\Binary.c(82,21): warning C4047: “函数”:“QDatatype”与“BTNode *”的间接级别不同
+E:\草稿箱\2023-last-part\二叉树链式存储\二叉树链式存储\Binary.c(82,17): warning C4024: “QueuePush”: 形参和实参 2 的类型不同
+E:\草稿箱\2023-last-part\二叉树链式存储\二叉树链式存储\Binary.c(91,29): warning C4047: “函数”:“QDatatype”与“BinaryTreeNode *”的间接级别不同
+E:\草稿箱\2023-last-part\二叉树链式存储\二叉树链式存储\Binary.c(91,23): warning C4024: “QueuePush”: 形参和实参 2 的类型不同
+E:\草稿箱\2023-last-part\二叉树链式存储\二叉树链式存储\Binary.c(94,30): warning C4047: “函数”:“QDatatype”与“BinaryTreeNode *”的间接级别不同
+E:\草稿箱\2023-last-part\二叉树链式存储\二叉树链式存储\Binary.c(94,23): warning C4024: “QueuePush”: 形参和实参 2 的类型不同
+E:\草稿箱\2023-last-part\二叉树链式存储\二叉树链式存储\Binary.c(86,1): warning C4047: “初始化”:“BTNode *”与“QDatatype”的间接级别不同
+  二叉树链式存储.vcxproj -> E:\草稿箱\2023-last-part\二叉树链式存储\Debug\二叉树链式存储.exe
