@@ -1,0 +1,18 @@
+﻿  源.cpp
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(31,19): error C2672: “begin”: 未找到匹配的重载函数
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(32,4): error C2893: 未能使函数模板“unknown-type std::begin(_Container &)”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1844): message : 参见“std::begin”的声明
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(32,4): message : 用下列模板参数:
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(32,4): message : “_Container=int *”
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(32,4): error C2784: “const _Elem *std::begin(std::initializer_list<_Elem>) noexcept”: 未能从“int *”为“std::initializer_list<_Elem>”推导 模板 参数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list(55): message : 参见“std::begin”的声明
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(31,19): error C2672: “end”: 未找到匹配的重载函数
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(32,4): error C2893: 未能使函数模板“unknown-type std::end(_Container &)”专用化
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xutility(1854): message : 参见“std::end”的声明
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(32,4): message : 用下列模板参数:
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(32,4): message : “_Container=int *”
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(32,4): error C2784: “const _Elem *std::end(std::initializer_list<_Elem>) noexcept”: 未能从“int *”为“std::initializer_list<_Elem>”推导 模板 参数
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\initializer_list(60): message : 参见“std::end”的声明
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(32,4): error C3536: “<begin>$L1”: 初始化之前无法使用
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(32,4): error C3536: “<end>$L1”: 初始化之前无法使用
+E:\草稿箱\2023-last-part\Project24\Project24\源.cpp(31,22): error C2100: 非法的间接寻址

@@ -36,6 +36,23 @@ private:
     }
 
 public:
+    // 从简单输入初始化图
+    void initFromSimpleInput(std::istream& input) {
+        int numVertices, edgeStart, edgeEnd;
+        float edgeWeight;
+
+        input >> numVertices; // 读取顶点数
+        for (int i = 0; i < numVertices; ++i) {
+            getOrCreateVertexIndex(std::to_string(i)); // 创建顶点
+        }
+
+        while (input >> edgeStart >> edgeEnd >> edgeWeight) {
+            int v = getOrCreateVertexIndex(std::to_string(edgeStart));
+            int w = getOrCreateVertexIndex(std::to_string(edgeEnd));
+            adjMatrix[v][w] = edgeWeight; // 添加边
+            adjMatrix[w][v] = edgeWeight; // 因为输入似乎是无向图，所以添加另一个方向的边
+        }
+    }
     // 从文件初始化图
     void initFromFile(const std::string& filename)
     {
@@ -248,13 +265,23 @@ public:
 int main()
 {
     Graph g;
-    g.initFromFile("graph.txt"); // 假设 graph.txt 是数据文件
-    // g.printGraph();
-    // g.DFS("S_1841.CUFCON05");
-    // g.BFS("S_1841.CUFCON05");
-    g.calculateMST();
-    g.makeUndirected();
-    std::cout << g.calculateDiameter() << std::endl;
+    std::istringstream input("5\n"  
+        "0 1 1\n"  
+        "0 2 1\n"
+        "1 3 1\n"
+        "2 3 1\n"
+        "2 4 1\n"
+        "3 4 1");
 
+    // 初始化图
+    g.initFromSimpleInput(input);
+
+    // 测试深度优先搜索(DFS)
+    g.DFS("0");
+
+    // 测试广度优先搜索(BFS)
+    g.BFS("0");
+
+    std::cout << g.calculateDiameter() << std::endl;
     return 0;
 }

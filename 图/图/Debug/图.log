@@ -1,6 +1,6 @@
 ﻿  源.cpp
-E:\草稿箱\2023-last-part\图\图\源.cpp(73,27): warning C4018: “<”: 有符号/无符号不匹配
-E:\草稿箱\2023-last-part\图\图\源.cpp(75,31): warning C4018: “<”: 有符号/无符号不匹配
-E:\草稿箱\2023-last-part\图\图\源.cpp(100,27): warning C4018: “<”: 有符号/无符号不匹配
-E:\草稿箱\2023-last-part\图\图\源.cpp(132,31): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\图\图\源.cpp(90,27): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\图\图\源.cpp(92,31): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\图\图\源.cpp(117,27): warning C4018: “<”: 有符号/无符号不匹配
+E:\草稿箱\2023-last-part\图\图\源.cpp(149,31): warning C4018: “<”: 有符号/无符号不匹配
   图.vcxproj -> E:\草稿箱\2023-last-part\图\Debug\图.exe
