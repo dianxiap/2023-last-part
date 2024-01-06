@@ -1,0 +1,6 @@
+﻿  源.cpp
+E:\草稿箱\2023-last-part\6.15\6.15\源.cpp(13,5): error C2084: 函数“int fun(const int)”已有主体
+E:\草稿箱\2023-last-part\6.15\6.15\源.cpp(9): message : 参见“fun”的前一个定义
+E:\草稿箱\2023-last-part\6.15\6.15\源.cpp(21,10): error C2065: “fun”: 未声明的标识符
+E:\草稿箱\2023-last-part\6.15\6.15\源.cpp(21,17): error C2568: “<<”: 无法解析函数重载
+E:\草稿箱\2023-last-part\6.15\6.15\源.cpp(21,17): message : 可能是“int fun(const int)”
